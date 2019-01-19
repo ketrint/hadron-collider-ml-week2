@@ -34,7 +34,8 @@ RUN pip3 --no-cache-dir install --upgrade \
         altair \
         sklearn-pandas \
         pandas \
-        sklearn
+        sklearn \
+        numpy
 
 # Open Ports for Jupyter
 EXPOSE 7745
